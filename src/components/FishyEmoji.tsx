@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./FishyEmoji.css";
 
 interface Props {
-  withOpenAnim?: boolean;
+  animateEnter?: boolean;
 }
 
-export default function FishyEmoji({ withOpenAnim }: Props) {
+export default function FishyEmoji({ animateEnter }: Props) {
   return (
-    <div className={`fishy-emoji ${withOpenAnim ? "with-open-anim" : ""}`}>
+    <div className={`fishy-emoji ${animateEnter ? "with-open-anim" : ""}`}>
       <span role="img" aria-label="Fish">
         🐟
       </span>

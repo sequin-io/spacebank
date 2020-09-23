@@ -527,7 +527,13 @@ export function ConnectedTable<D>({ fetchKey, transform, ...rest }: CTProps) {
     return <ShowDecodeError error={error} />;
   }
 
-  return <Table loading={!data} data={(data ?? []) as any} {...rest} />;
+  return (
+    <Table
+      loading={rest.loading || !data}
+      data={(data ?? []) as any}
+      {...rest}
+    />
+  );
 }
 
 let useDefaultColumns = <D extends object = {}>(

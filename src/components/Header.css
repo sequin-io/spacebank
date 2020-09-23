@@ -1,11 +1,37 @@
-.header .content {
-  padding: 72px 0px 24px 0px;
-  text-align: center;
+.header {
   background: var(--primary);
 }
 
 .header .logo {
   height: 64px;
+  transform: rotate(-30deg);
+  margin-right: 20px;
+  grid-column: 2;
+}
+
+.header .brand {
+  display: grid;
+  grid-template-columns: 1fr auto auto 1fr;
+  align-items: center;
+  max-width: 450px;
+  margin: 0px auto;
+  padding: 72px 0px 24px 0px;
+}
+
+.header .text .primary {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  color: #fff;
+  line-height: 35px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.header .text .secondary {
+  font-family: monospace;
+  font-size: 14px;
+  color: #fff;
+  text-align: right;
 }
 
 .header .cloud {

@@ -58,7 +58,7 @@ export default function TransactionsTableCard({
                 disabled={disableButtons || processing}
                 onClick={onClearClick}
               >
-                Clear Tags
+                Not so Fishy
               </Button>
               <Button
                 type="primary"
