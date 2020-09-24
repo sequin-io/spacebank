@@ -7,9 +7,7 @@ import { DecodeProvider } from "@decode/client";
 
 ReactDOM.render(
   <React.StrictMode>
-    <DecodeProvider>
-      <App />
-    </DecodeProvider>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
