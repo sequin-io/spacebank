@@ -1213,10 +1213,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@decode/client@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@decode/client/-/client-0.2.3.tgz#95537f6fea992fff56ba3692bc7c58c678bb74b9"
-  integrity sha512-YcyjzLMtGbdDGzY79PimfxZFhRCc2cX07adFrQiG2rn1lNLEFRMvmX6RUX1QI/R5NqGKVS0ZM4cnFCAfZk+qJQ==
+"@decode/client@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@decode/client/-/client-0.2.4.tgz#23bfd7daee5c49438296c37f6a30320a0fe85269"
+  integrity sha512-QMEzH2jCaK1eV+/1skmV+uwbUx/3BACICveOu0uerhoKotSJ/CsToTs2u0X73ZlmFNfHrTl5BOztKGDza1/KLQ==
   dependencies:
     jshashes h2non/jshashes
     swr "^0.2.2"

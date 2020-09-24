@@ -1,9 +1,23 @@
-@import "./antd-custom-theme.css";
-
-body {
-  background-color: var(--accent);
+.transactions .transactions-space {
+  width: 100%;
 }
 
-.App {
-  width: 100%;
+.transactions .transactions-tag {
+  margin-left: 6px;
+}
+
+.table-placeholder {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  margin: 20px 0px;
+}
+
+.table-placeholder span {
+  grid-column: 2;
+  color: #f5222d;
+  background: #fff1f0;
+  padding: 0 7px;
+  line-height: 20px;
+  border: 1px solid #ffa39e;
+  border-radius: 3px;
 }
